@@ -7,7 +7,7 @@ It has basic functionality, but no user interface. Basically it just passes all 
 I'll include instructions below for use with PostgreSQL, but this should work with other SQL implementations.
 
 To use, make sure you are in the directory with the .sql and .py files. $ is your shell, => is inside psql
-
+```
   $  psql
   => CREATE DATABASE tournament
   => \q
@@ -15,6 +15,6 @@ To use, make sure you are in the directory with the .sql and .py files. $ is you
   => \i tournament.sql
   => \q
   $  python tournament_test.py
-  
+```  
 All it will do is print out that I passed the tests. The test file (tournament_test.py) is from the Udacity course
 tournament.sql and tournament.py are my own code (excluding the method names and comments in tournament.py)

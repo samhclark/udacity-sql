@@ -9,7 +9,7 @@ I'll include instructions below for use with PostgreSQL, but this should work wi
 To use, make sure you are in the directory with the .sql and .py files. $ is your shell, => is inside psql
 
   $  psql
-  \=\> CREATE DATABASE tournament
+  => CREATE DATABASE tournament
   => \q
   $  psql tournament
   => \i tournament.sql
